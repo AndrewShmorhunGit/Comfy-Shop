@@ -10,7 +10,6 @@ const FeaturedProducts = () => {
     products_loading: loading,
     products_error: error,
     featured_products: featured,
-    toggleFeatureProducts,
     show,
   } = useProductsContext();
 
