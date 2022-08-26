@@ -7,7 +7,7 @@ import {
   Elements,
   useElements,
 } from "@stripe/react-stripe-js";
-import { PageHero } from "../components";
+// import { PageHero } from "../components";
 import axios from "axios";
 import { useCartContext } from "../context/cart_context";
 import { useUserContext } from "../context/user_context";
