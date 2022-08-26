@@ -33,10 +33,10 @@ const FeaturedProducts = () => {
           return <Product key={product.id} {...product} />;
         })}
       </div>
-      <div className="buttons">
-        <button className="btn" onClick={toggleFeatureProducts}>
+      <div>
+        {/* <button className="btn" onClick={toggleFeatureProducts}>
           {show ? "show more" : "show less"}
-        </button>
+        </button> */}
         <br />
 
         <Link to="/products">
@@ -61,7 +61,7 @@ const Wrapper = styled.section`
   .buttons {
     display: flex;
     flex-direction: inline;
-    margin: 0 40rem 0 40rem;
+    padding: 0 auto;
   }
 
   .btn {
